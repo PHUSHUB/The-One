@@ -1,0 +1,9 @@
+repeat wait() until game:IsLoaded()
+local PlaceId = game.PlaceId
+if PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 then -- blox piece
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
+elseif PlaceId == 2788229376 then -- da Hood
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PHUSHUB/Da-Hood-PH-Remake/main/PHUSHUB"))()
+elseif placeId == 286090429 then -- arsenal
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PHUSHUB/Arsenal-PH-Remake/main/PHUSHUB"))()
+end
